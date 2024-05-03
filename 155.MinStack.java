@@ -6,8 +6,6 @@ class MinStack {
     
     public void push(int x) {
         
-        /* If the stack is empty, then the min value
-         * must just be the first value we add. */
         if (stack.isEmpty()) {
             stack.push(new int[]{x, x});
             return;
