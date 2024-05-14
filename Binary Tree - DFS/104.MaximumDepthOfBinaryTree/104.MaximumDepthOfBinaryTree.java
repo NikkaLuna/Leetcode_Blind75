@@ -18,3 +18,4 @@ public class Solution {
         return Math.max(leftDepth, rightDepth) + 1;
     }
 }
+
