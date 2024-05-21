@@ -12,12 +12,6 @@ root = [1,2,3,null,5,null,4]
 **Output:**
 [1,3,4]
 
-   1
-  / \
- 2   3
-  \   \
-   5   4
-
 
 **Right Side View:**
 - When you stand on the right side of the tree, the nodes you can see are those that are the rightmost at each level of the tree.
